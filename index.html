@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sweetnnees</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+
+<!-- start header-->
+
+
+<header class="header">
+
+
+    <!-- start logo-->
+    <a href="#" class="logo"><img src="pic/logo.jpg" alt="">sweetnnees</a>
+    <!-- end logo-->
+
+
+    <!-- start nav-->
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#gallery">gallery</a>
+        <a href="#recipe">recipe</a>
+        <a href="#about">about</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+    <!-- end nav-->
+
+    <!-- start icon-->
+
+    <div class="icon">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#heart" class="fas fa-heart"></a>
+    </div>
+
+    <!-- end icon-->
+
+
+
+
+</header>
+
+<!-- end header-->
+
+<!-- start login wrapper -->
+
+<div class="wrapper">
+    <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+    <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">
+                    Remember Me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="login-register">
+                <p>Don't have an account? <a href="#" class="register-link"> Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">
+                    I agree to the terms & coditions</label>
+            </div>
+            <button type="submit" class="btn">Register</button>
+            <div class="login-register">
+                <p> Already have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+<!-- end login wrapper -->
+
+
+<!-- start search-form -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- end search-form -->
+
+
+
+<!-- start sec home -->
+
+<section class="home" id="home">
+
+
+    <div class="content">
+        <h1>wellcome</h1><br>
+        <h2>we care about your health</h2>
+        <p> our website for healthy snack</p>
+        <a href="#" class="btn">Get Your NOW</a>
+    </div>
+
+    <div class="img">
+        <img src="pic/home.jpg" alt="">
+    </div>
+
+
+</section>
+
+<!-- end sec home -->
+
+
+<!-- start sec gallery -->
+
+<section class="gallery" id="gallery">
+
+    <h3 class="sup-heading">Your gallery</h3>
+    <h1 class="heading-1">Popular Recipe of yours</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/gallery-1.jpg" alt="">
+            <h3>healthy snack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5.75</span>
+            <a href="#" class="btn-star">add to favorite</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/gallery-2.jpg" alt="">
+            <h3>healthy snack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$99.75</span>
+            <a href="#" class="btn-star">add to favorite</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/gallery-3.jpg" alt="">
+            <h3>healthy snack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5.75</span>
+            <a href="#" class="btn-star">add to favorite</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/gallery-4.jpg" alt="">
+            <h3>healthy food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5.75</span>
+            <a href="#" class="btn-star">add to favorite</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/gallery-5.jpg" alt="">
+            <h3>healthy food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5.75</span>
+            <a href="#" class="btn-star">add to favorite</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/gallery-6.jpg" alt="">
+            <h3>healthy food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5.75</span>
+            <a href="#" class="btn-star">add to favorite</a>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+<!-- end sec gallery -->
+
+
+<!-- start sec recipe -->
+
+<section class="recipe" id="recipe">
+
+
+
+    <h1 class="heading"> Our <span>recipe </span></h1>
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <img src="pic/recipe-1.jpg" alt="">
+            <h3>healthy and delicious</h3>
+            <div class="price">egg recipe <span>add</span></div>
+            <a href="#" class="btn">add to favorite</a>
+        </div>
+
+
+        <div class="box">
+            <img src="pic/recipe-2.jpg" alt="">
+            <h3>healthy and delicious</h3>
+            <div class="price">pizza recipe <span>add</span></div>
+            <a href="#" class="btn">add to favorite</a>
+        </div>
+
+
+
+        <div class="box">
+            <img src="pic/recipe-3.jpg" alt="">
+            <h3>healthy and delicious</h3>
+            <div class="price">chicken recipe <span>add</span></div>
+            <a href="#" class="btn">add to favorite</a>
+        </div>
+
+
+
+        <div class="box">
+            <img src="pic/recipe-4.jpg" alt="">
+            <h3>healthy and delicious</h3>
+            <div class="price">fruits recipe <span>add</span></div>
+            <a href="#" class="btn">add to favorite</a>
+        </div>
+
+
+
+        <div class="box">
+            <img src="pic/recipe-5.jpg" alt="">
+            <h3>healthy and delicious</h3>
+            <div class="price">sandwich recipe <span>add</span></div>
+            <a href="#" class="btn">add to favorite</a>
+        </div>
+
+
+
+        <div class="box">
+            <img src="pic/recipe-6.jpg" alt="">
+            <h3>healthy and delicious</h3>
+            <div class="price">chocolate recipe <span>add</span></div>
+            <a href="#" class="btn">add to favorite</a>
+        </div>
+
+
+
+    </div>
+
+
+
+</section>
+
+
+<!-- end sec recipe -->
+
+
+<!-- start sec about -->
+
+<section class="about" id="about">
+
+
+    <h1 class="heading"><span>about</span> us</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="pic/about.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>What Make Our Doll Special</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati libero quibusdam corrupti
+                dignissimos, ex quisquam ipsam voluptatem quae maiores rerum nemo ipsa reiciendis omnis modi
+                perspiciatis consequuntur reprehenderit illum doloribus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit hic nulla vitae numquam
+                eligendi error tempora expedita unde atque.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- end sec about -->
+
+
+<!-- start sec review -->
+
+<section class="review" id="review">
+
+
+    <h3 class="sub-heading-4"> Customer's Review</h3>
+    <h1 class="heading-4"> What Thay Say </h1>
+
+    <div class="swiper-container review-slider">
+
+
+        <div class="swiper-wrapper-3">
+
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic/review-1.jpg" alt="">
+                    <div class="user-info">
+                        <h3>benya khalid</h3>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                    maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                    reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic/review-2.jpg" alt="">
+                    <div class="user-info">
+                        <h3> nooran98</h3>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                    maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                    reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic/review-3.jpg" alt="">
+                    <div class="user-info">
+                        <h3>MEME_...</h3>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                    maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                    reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic/review-4.jpg" alt="">
+                    <div class="user-info">
+                        <h3>toot_2001</h3>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                    maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                    reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic/review-5.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Unknown</h3>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                    maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                    reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<!-- end sec review -->
+
+
+<!-- start sec blogs -->
+
+<section class="blogs" id="blogs">
+
+
+
+
+
+    <h1 class="heading"> our <span>Blogs</span></h1>
+
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <div class="image">
+                <img src="pic/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">healthy & delicious </a>
+                <span>by admin / 22st nov, 2020</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="pic/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">healthy & delicious </a>
+                <span>by admin / 22st nov, 2020</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="pic/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">healthy & delicious </a>
+                <span>by admin / 22st nov, 2020</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</section>
+
+<!-- end sec blogs -->
+
+<!-- start sec footer -->
+
+<section class="footer">
+
+
+
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+
+    <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">New</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+    </div>
+
+
+    <div class="credit">created by <span>Heba Ghazi Bashmakh IUM 153686 </span> | all right saved</div>
+
+
+
+
+
+</section>
+
+<!-- end sec footer -->
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
