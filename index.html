@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&S Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<!--
+    مشروع الطالبتان هبه و سلمى
+    Heba Ghazi Bashmakh IUM 153686
+    سلمى كامل السيد سليمان مكاوي IUM 153297
+-->
+
+<body>
+
+    <header>
+
+
+        <a href="#" class="logo"><i class="fa-solid fa-palette"></i>H&S</a>
+
+        <nav class="navigation">
+            <a class="active" href="#Home">Home</a>
+            <a href="#pieces">Pieces</a>
+            <a href="#About">About</a>
+            <a href="#review">Review</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#heart" class="fas fa-heart"></a>
+            <a href="#shopping" class="fas fa-shopping-cart"></a>
+
+        </div>
+
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                        Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link"> Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                        I agree to the terms & coditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p> Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <section class="main" id="main">
+        <div class="content">
+            <h2>
+                Welcome To Our Store<br><span>Made With Love For You </span>
+            </h2>
+            <h3>
+                Beautiful & Lovable <br> Hand Made Pieces
+            </h3>
+            <a href="#Shopnow" class="main-btn">Shop Now</a>
+
+
+            <div class="social-icons">
+                <a href="https://wa.me/message/BTD6ADKJWIDSA1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/numoo_shop?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+                    target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@numooshop?_t=8iGLAfd0nSc&_r=1" target="_blank"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://youtube.com/@naty8967?si=3ypWjVIDWcJ6n3Ep" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="home" id="Home">
+
+        <div class="wiper-container mySwiper home-slider">
+
+            <div class="swiper-wrapper wrapper1">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Pieces</span>
+                        <h3>Home Decorations</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus odit quidem!
+                        </p>
+                        <a href="#" class="btn-order">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/home-img.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Pieces</span>
+                        <h3>Medium Decorations</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus odit quidem!
+                        </p>
+                        <a href="#" class="btn-order">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Pieces</span>
+                        <h3>Small Decorations</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus odit quidem!
+                        </p>
+                        <a href="#" class="btn-order">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Pieces</span>
+                        <h3>Cup & Utensils</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus odit quidem!
+                        </p>
+                        <a href="#" class="btn-order">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="image/home-img-4.png" alt="">
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- <div class="swiper-pagination"></div> -->
+
+        </div>
+
+    </section>
+
+
+    <section class="pieces" id="pieces">
+
+        <h3 class="sup-heading">Our pieces</h3>
+        <h1 class="heading1">Popular pieces</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="image/picese-img.png" alt="">
+                <h3>Beautiful Pieces</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$5.75</span>
+                <a href="#" class="btn-star">add to card</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="image/picese-img-2.png" alt="">
+                <h3>Beautiful Pieces</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$99.75</span>
+                <a href="#" class="btn-star">add to card</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="image/picese-img-3.png" alt="">
+                <h3>Beautiful Pieces</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$5.75</span>
+                <a href="#" class="btn-star">add to card</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="image/picese-img-4.png" alt="">
+                <h3>Beautiful Pieces</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$5.75</span>
+                <a href="#" class="btn-star">add to card</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="image/picese-img-5.png" alt="">
+                <h3>Beautiful Pieces</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$5.75</span>
+                <a href="#" class="btn-star">add to card</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="image/picese-img-6.png" alt="">
+                <h3>Beautiful Pieces</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$5.75</span>
+                <a href="#" class="btn-star">add to card</a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <section class="About" id="About">
+
+
+        <h3 class="sup-heading-2"> About Us</h3>
+        <h1 class="heading-2"> Why Choose Us? </h1>
+
+        <div class="row">
+
+            <div class="images">
+                <img src="image/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>the best store in country </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi facere quam culpa est alias.
+                    Necessitatibus at atque nemo quibusdam qui quo, fugit incidunt id ex iusto tempore voluptas,
+                    voluptate excepturi!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta porro at quia fugiat minus
+                    voluptas debitis eveniet quam doloribus.</p>
+                <div class="icons-container">
+
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24\7 service</span>
+                    </div>
+
+                </div>
+
+                <a href="#" class="btn-order">Learn More</a>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="Shopnow" id="Shopnow">
+
+
+        <h3 class="sup-heading-3"> Our Products </h3>
+        <h1 class="heading-3"> Today's Speciality </h1>
+
+        <div class="box-container">
+
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$30.50</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-2.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$50</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-3.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$25.75</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-4.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$10.50</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-5.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$5.75</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-6.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$5.75</span>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-7.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$3.75</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-8.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$3.75</span>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+
+                    <img src="image/shop-img-9.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> Lovable Pieces </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vitae ipsum?</p>
+                    <a href="#" class="btn-star">add to cart</a>
+                    <span class="price">$5.75</span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <section class="review" id="review">
+
+
+        <h3 class="sub-heading-4"> Customer's Review</h3>
+        <h1 class="heading-4"> What Thay Say </h1>
+
+        <div class="swiper-container review-slider">
+
+
+            <div class="swiper-wrapper-3">
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/review-img.jpg" alt="">
+                        <div class="user-info">
+                            <h3>sara khalid</h3>
+                            <div class="start">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                        maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                        reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/review-img-2.jpg" alt="">
+                        <div class="user-info">
+                            <h3> nooran98</h3>
+                            <div class="start">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                        maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                        reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/review-img-3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>roose_...</h3>
+                            <div class="start">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                        maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                        reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/review-img-4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>saleem</h3>
+                            <div class="start">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                        maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                        reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/review-img-5.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Unknown</h3>
+                            <div class="start">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus, natus ratione placeat
+                        maxime deserunt omnis eveniet provident odio. Accusantium, laboriosam corrupti ducimus unde illo
+                        reprehenderit est repellat deleniti reiciendis ipsa totam ipsam iure consequuntur!</p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <section class="footer">
+
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">kuwait</a>
+                <a href="#">saudi arabia</a>
+                <a href="#">yamen</a>
+                <a href="#">oman</a>
+                <a href="#">bahrain</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#Home">Home</a>
+                <a href="#pieces">Pieces</a>
+                <a href="#About">About</a>
+                <a href="#review">Review</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+996-757-534</a>
+                <a href="#">+996-765-555</a>
+                <a href="#">heba&salma@gmail.com</a>
+                <a href="#">yamen, oman 705009</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">instagram</a>
+                <a href="#">tiktok</a>
+                <a href="#">youtube</a>
+                <a href="#">X</a>
+            </div>
+
+
+
+        </div>
+
+        <div class="credit"> copyright @ 2023 by <span>HEBA GHAZY & SALMA KAMEL</span></div>
+
+    </section>
+
+    <!-- <div class="loader-container">
+        <img src="image/icon.png" alt="">
+    </div>
+-->
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
